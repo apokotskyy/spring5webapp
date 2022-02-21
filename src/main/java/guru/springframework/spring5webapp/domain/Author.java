@@ -16,7 +16,7 @@ public class Author {
     public Author() {
     }
 
-    public Author(String firstName, String lastNamev) {
+    public Author(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -72,7 +72,6 @@ public class Author {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", books=" + books +
                 '}';
     }
 }
